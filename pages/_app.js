@@ -3,6 +3,7 @@ import App from 'next/app'
 
 import './App.css';
 import '.';
+
 import 'semantic-ui-css/semantic.min.css';
 
 class MainApp extends App {
