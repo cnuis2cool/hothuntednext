@@ -17,7 +17,7 @@ import { createHttpLink } from 'apollo-link-http';
 import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
-import Hunts from './hunts';
+import Hunts from './components/hunts';
 
 const httpLink = createHttpLink({
   uri: process.env.REACT_APP_PH_GRAPHQL_URL
