@@ -1,0 +1,2 @@
+# hothuntednext
+HotHunted with NextJS
