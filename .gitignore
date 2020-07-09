@@ -5,10 +5,6 @@
 /.pnp
 .pnp.js
 
-#lock
-package-lock.json
-yarn.lock
-
 # testing
 /coverage
 
@@ -21,6 +17,10 @@ yarn.lock
 
 # misc
 .DS_Store
+
+#lock
+package-lock.json
+yarn.lock
 
 # debug
 npm-debug.log*

@@ -1,66 +1,38 @@
-import React from 'react';
-
-import {
-  Header,
-  Menu,
-  Icon,
-  Grid,
-  Segment,
-  List,
-  Responsive,
-  Sidebar
-} from 'semantic-ui-react';
+import Head from 'next/head';
 
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
-import { createHttpLink } from 'apollo-link-http';
-import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 
-import Hunts from './components/hunts';
+import Hunts from '../components/hunts';
 
-const httpLink = createHttpLink({
-  uri: process.env.REACT_APP_PH_GRAPHQL_URL
-});
+import Layout from "../components/Layout";
 
-const client1 = new ApolloClient({
-  link: httpLink,
-  cache: new InMemoryCache()
-});
+import {
+  Button,
+  Card,
+  Grid,
+  Header,
+  Message,
+  Segment,
+} from 'semantic-ui-react';
 
 const client = new ApolloClient({
   uri: 'https://api.producthunt.com/v2/api/graphql',
   headers: {
-    authorization: `Bearer ${process.env.REACT_APP_PH_KEY}` //${process.env.REACT_APP_PH_KEY}` // TODO: Env variable doesn't work
+    authorization: `Bearer Y0qgFNy6xrPmmS6Gb5qN7EMWmaN7-O9tBrHqAkg6gBk` //${process.env.REACT_APP_PH_KEY}` // TODO: Env variable doesn't work
   }
 });
 
-const timeNow = new Date().toUTCString();
-
-const App = () => (
-  <ApolloProvider client={client} className="container">
-    <div>
-      <header className="App-header">
-        <h2>Hot Hunts</h2>
-        <div className="meta">
-          <h4>Today's Top 5 Products from ProductHunt</h4>
-        </div>
-      </header>
-      {/* <div className="ui inverted vertical center aligned segment">
-        <div className="ui text container">
-          <h2 className="ui inverted header title">Hot Hunted</h2>
-          <h4 className="ui inverted header sub-title">Today's Top 5 Products from ProductHunt</h4>
-          <h5 className="ui inverted header">{timeNow}</h5>
-        </div>
-      </div> */}
-    </div>
-    <main>
-      <Hunts />
-    </main>
-    <div></div>
-    <footer className="footer">
+export default function Home() {
+  return (
+    <ApolloProvider client={client}>
+      <Layout>
+        <Hunts />
+      </Layout>
+      <footer className="footer">
       <div className="ui inverted vertical segment">
-        <div >
+        <div className="ui container">
           <div className="ui inverted stackable divided grid">
             <div className="row">
               <div className="computer only five wide column">
@@ -85,8 +57,6 @@ const App = () => (
         </div>
       </div>
     </footer>
-    
-  </ApolloProvider>
-);
-
-export default App;
+    </ApolloProvider>
+  )
+}

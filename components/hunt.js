@@ -21,15 +21,21 @@ const Hunt = (props) => (
         </div>
         <div className="extra content">
               <div>
-                <button className="ui green right floated button">
+                <button className="ui teal right floated button">
                     <a href={props.hunt.node.website} target="_blank" className="">Website</a>
                 </button>
                 <div className="ui left labeled button" role="button">
-                    <button className="ui blue basic button">
+                    {/* <button className="ui blue basic button">
                         <i aria-hidden="true" className="sort up icon"></i>
                             Votes
                     </button>
-                    <a className="ui blue left pointing basic label">{props.hunt.node.votesCount}</a>
+                    <a className="ui blue left pointing basic label">{props.hunt.node.votesCount}</a> */}
+                    <div class="ui right labeled button">
+                        <div class="ui icon button">
+                            <i>Votes</i>
+                        </div>
+                        <a class="ui basic label">{props.hunt.node.votesCount}</a>
+                    </div>
                 </div>
             </div>
         </div>
