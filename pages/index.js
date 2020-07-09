@@ -20,7 +20,7 @@ import {
 const client = new ApolloClient({
   uri: 'https://api.producthunt.com/v2/api/graphql',
   headers: {
-    authorization: `Bearer Y0qgFNy6xrPmmS6Gb5qN7EMWmaN7-O9tBrHqAkg6gBk` //${process.env.REACT_APP_PH_KEY}` // TODO: Env variable doesn't work
+    authorization: `Bearer ` //${process.env.REACT_APP_PH_KEY}` // TODO: Env variable doesn't work
   }
 });
 
