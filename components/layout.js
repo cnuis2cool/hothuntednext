@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import Header from "./header";
-import NavBar from "./navBar";
+import NavBar from "./navbar";
 import 'semantic-ui-css/semantic.min.css';
 
 import "./Index.scss";
