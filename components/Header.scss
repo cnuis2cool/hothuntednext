@@ -28,3 +28,38 @@
     font-weight: normal;
     float: right;
   }
+
+  svg {
+    text-align: center;
+    margin-right: 0.5em;
+    margin-left: 0.4em;
+    width: 40px;
+    height: 40px;
+  }
+
+  @-webkit-keyframes storking {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes storking {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  #icon-charge .charging {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-name: storking;
+    animation-name: storking;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }

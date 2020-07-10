@@ -2,13 +2,12 @@ import Head from "next/head";
 
 import Header from "./header";
 import NavBar from "./navbar";
-import 'semantic-ui-css/semantic.min.css';
 
 import "./Index.scss";
 import "./Layout.scss";
 
 const Layout = props => {
-    const appTitle = `# HotHunts`;
+    const appTitle = ` HotHunts`;
     const subTitle = `Today's Top 5 Products from ProductHunt`;
 
     return (

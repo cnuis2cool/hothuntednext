@@ -8,6 +8,8 @@ import Hunts from '../components/hunts';
 
 import Layout from "../components/layout";
 
+import 'semantic-ui-css/semantic.min.css';
+
 import {
   Button,
   Card,
@@ -35,13 +37,14 @@ export default function Home() {
         <div className="ui container">
           <div className="ui inverted stackable divided grid">
             <div className="row">
-              <div className="computer only five wide column">
+              <div className="computer only six wide column">
                 <h4 className="ui inverted header">Tech Stack</h4>
                 <div role="list" className="ui inverted horizontal list">
                   <a role="listitem" className="item">ReactJS</a>
+                  <a role="listitem" className="item">NextJS</a>
                   <a role="listitem" className="item">Semantic UI</a>
                   <a role="listitem" className="item">GraphQL</a>
-                  <a role="listitem" className="item">ApolloClient</a>
+                  <a role="listitem" className="item">Apollo Client</a>
                 </div>
               </div>
               <div className="five wide column">

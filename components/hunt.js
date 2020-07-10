@@ -30,11 +30,11 @@ const Hunt = (props) => (
                             Votes
                     </button>
                     <a className="ui blue left pointing basic label">{props.hunt.node.votesCount}</a> */}
-                    <div class="ui right labeled button">
-                        <div class="ui icon button">
+                    <div className="ui right labeled button">
+                        <div className="ui icon button">
                             <i>Votes</i>
                         </div>
-                        <a class="ui basic label">{props.hunt.node.votesCount}</a>
+                        <a className="ui basic label">{props.hunt.node.votesCount}</a>
                     </div>
                 </div>
             </div>
