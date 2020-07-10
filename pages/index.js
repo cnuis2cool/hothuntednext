@@ -49,11 +49,11 @@ export default function Home() {
               </div>
               <div className="five wide column">
                 <h4 className="ui inverted header">Creator</h4>
-                <p>Made with 💚 by <a href="https://cnuis2cool.github.io/">Srinivas Panuganti</a></p>
+                <p>Made with 💚 by <a target="_blank" href="https://cnuis2cool.github.io/">Srinivas Panuganti</a></p>
               </div>
               <div className="computer tablet only five wide column">
                 <h4 className="ui inverted header">Credits</h4>
-                <p>Made possible by <a href="https://api.producthunt.com/v2/docs">ProductHunt API</a></p>
+                <p>Made possible by <a target="_blank" href="https://api.producthunt.com/v2/docs">ProductHunt API</a></p>
               </div>
             </div>
           </div>
