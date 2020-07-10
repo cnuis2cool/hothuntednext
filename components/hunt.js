@@ -1,14 +1,5 @@
 import React from 'react';
 
-import {
-    Button,
-    Card,
-    Grid,
-    Header,
-    Message,
-    Segment,
-} from 'semantic-ui-react';
-
 const Hunt = (props) => (
     <div className="ui card" key={props.hunt.node.id} style={{ marginLeft: '1em' }}>
         <div className="content">
@@ -25,11 +16,6 @@ const Hunt = (props) => (
                     <a href={props.hunt.node.website} target="_blank" className="">Website</a>
                 </button>
                 <div className="ui left labeled button" role="button">
-                    {/* <button className="ui blue basic button">
-                        <i aria-hidden="true" className="sort up icon"></i>
-                            Votes
-                    </button>
-                    <a className="ui blue left pointing basic label">{props.hunt.node.votesCount}</a> */}
                     <div className="ui right labeled button">
                         <div className="ui icon button">
                             <i>Votes</i>

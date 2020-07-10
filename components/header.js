@@ -12,7 +12,7 @@ const Header = props => (
         <line stroke="#2a2a31" x1="23" y1="13" x2="23" y2="11"></line>
         <polyline className="charging" stroke="#ea3970" points="11 6 7 12 13 12 9 18"></polyline>
       </svg>
-      {props.appTitle} &nbsp;&nbsp; <span className="subheader">{props.subTitle}</span>
+      <span classname="title">{props.appTitle}</span> &nbsp;&nbsp; <span className="subtitle">{props.subTitle}</span>
     </div>
   </Link>
 );

@@ -4,11 +4,6 @@ import gql from "graphql-tag";
 
 import Hunt from './hunt';
 
-import {
-  Grid,
-  Segment
-} from 'semantic-ui-react';
-
 const Hunts = () => (
   <Query
     query={gql`
@@ -40,7 +35,7 @@ const Hunts = () => (
         <div className="ui stackable grid">
           {
             data.posts.edges.map((currentHunt) => (
-              <div className="five wide computer sixteen wide mobile five wide tablet column">
+              <div className="five wide computer sixteen wide mobile seven wide tablet column">
                 <Hunt key={currentHunt.cursor} hunt={currentHunt} />
               </div>
             ))}

@@ -1,13 +1,8 @@
-import Head from 'next/head';
-
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
-import { InMemoryCache } from 'apollo-cache-inmemory';
 
 import Hunts from '../components/hunts';
-
 import Layout from "../components/layout";
-
 import 'semantic-ui-css/semantic.min.css';
 
 import {
