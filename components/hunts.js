@@ -40,7 +40,7 @@ const Hunts = () => (
         <div className="ui stackable grid">
           {
             data.posts.edges.map((currentHunt) => (
-              <div className="four wide computer sixteen wide mobile eight wide tablet column">
+              <div className="five wide computer sixteen wide mobile five wide tablet column">
                 <Hunt key={currentHunt.cursor} hunt={currentHunt} />
               </div>
             ))}

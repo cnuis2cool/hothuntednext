@@ -27,12 +27,13 @@
     .cards {
       .card-placement {
         width: 100%;
-        margin: 10px;
+        margin: 1em;
       }
 
       .ui.grid {
         margin-top: .75em;
         margin-bottom: .75em;
+        padding: 0 20em;
       }
       
       .columns {
@@ -42,8 +43,8 @@
       }
       
       .ui.card {
-        margin-left: 1em;
-        padding: .75rem;
+        margin-left: .5em;
+        padding: .5rem;
       }
 
       .meta {
