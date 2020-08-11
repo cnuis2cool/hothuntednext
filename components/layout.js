@@ -20,22 +20,22 @@ const Layout = props => {
                 <title>Hot Hunts</title>
                 {/* <!-- Search Engine --> */}
                 <meta name="description" content="Today's Top 5 Products from ProductHunt" />
-                <meta name="image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                <meta name="image" content="https://hothunts.vercel.app/hothunts_1200_600.png" />
                 {/* <!-- Schema.org for Google --> */}
                 <meta itemprop="name" content="Hot Hunts" />
                 <meta itemprop="description" content="Today's Top 5 Products from ProductHunt" />
-                <meta itemprop="image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                <meta itemprop="image" content="https://hothunts.vercel.app/hothunts_1200_600.png" />
                 {/* <!-- Twitter --> */}
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:title" content="Hot Hunts" />
                 <meta name="twitter:description" content="Today's Top 5 Products from ProductHunt" />
                 <meta name="twitter:site" content="@cnuis2cool" />
                 <meta name="twitter:creator" content="@cnuis2cool" />
-                <meta name="twitter:image:src" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                <meta name="twitter:image:src" content="https://hothunts.vercel.app/hothunts_1200_600.png" />
                 {/* <!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
                 <meta name="og:title" content="Hot Hunts" />
                 <meta name="og:description" content="Today's Top 5 Products from ProductHunt" />
-                <meta name="og:image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                <meta name="og:image" content="https://hothunts.vercel.app/hothunts_1200_600.png" />
                 <meta name="og:url" content="https://hothunts.vercel.app/" />
                 <meta name="og:site_name" content="HotHunts" />
                 <meta name="og:type" content="website" />
