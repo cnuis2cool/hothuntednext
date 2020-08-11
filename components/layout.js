@@ -19,10 +19,10 @@ const Layout = props => {
                 <meta property="og:description" content="Today's Top 5 Products from ProductHunt" />
                 <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
                 <meta property="og:url" content="https://hothunts.vercel.app/" />
-                <meta name="twitter:title" content="Hot Hunts Today " />
-                <meta name="twitter:description" content=" Today's Top 5 Products from ProductHunt." />
-                <meta name="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
-                <meta name="twitter:card" content="Today's Top 5 Products from ProductHunt" />
+                <meta property="twitter:title" content="Hot Hunts Today " />
+                <meta property="twitter:description" content=" Today's Top 5 Products from ProductHunt." />
+                <meta property="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
+                <meta property="twitter:card" content="Today's Top 5 Products from ProductHunt" />
                 <meta charSet="utf-8" />
             </Head>
 
