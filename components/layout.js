@@ -15,14 +15,31 @@ const Layout = props => {
             <Head>
                 <title>Hot Hunts</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta property="og:site_name" content="HotHunts" key="ogsitename" />
-                <meta property="og:title" content="Hot Hunts Today " key="ogtitle" />
-                <meta property="og:description" content="Today's Top 5 Products from ProductHunt" key="ogdescription" />
-                <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" key="ogimage" />
-                <meta property="og:url" content="https://hothunts.vercel.app/" key="ogurl" />
-                <meta name="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" key="twimage" />
-                <meta name="twitter:card" content="summary" key="twcard" />
-                <meta name="twitter:creator" content="@cnuis2cool" key="twcreator" />
+
+                {/* /<!-- COMMON TAGS --> */}
+                <title>Hot Hunts</title>
+                {/* <!-- Search Engine --> */}
+                <meta name="description" content="Today's Top 5 Products from ProductHunt" />
+                <meta name="image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                {/* <!-- Schema.org for Google --> */}
+                <meta itemprop="name" content="Hot Hunts" />
+                <meta itemprop="description" content="Today's Top 5 Products from ProductHunt" />
+                <meta itemprop="image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                {/* <!-- Twitter --> */}
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:title" content="Hot Hunts" />
+                <meta name="twitter:description" content="Today's Top 5 Products from ProductHunt" />
+                <meta name="twitter:site" content="@cnuis2cool" />
+                <meta name="twitter:creator" content="@cnuis2cool" />
+                <meta name="twitter:image:src" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                {/* <!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
+                <meta name="og:title" content="Hot Hunts" />
+                <meta name="og:description" content="Today's Top 5 Products from ProductHunt" />
+                <meta name="og:image" content="https://github.com/cnuis2cool/JustImages/blob/master/Tech/hothunts_1200_1200.png" />
+                <meta name="og:url" content="https://hothunts.vercel.app/" />
+                <meta name="og:site_name" content="HotHunts" />
+                <meta name="og:type" content="website" />
+
                 <meta charSet="utf-8" />
             </Head>
 
