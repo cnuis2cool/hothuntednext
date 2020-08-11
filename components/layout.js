@@ -13,8 +13,16 @@ const Layout = props => {
     return (
         <div className="Layout">
             <Head>
-                <title>HotHunts</title>
+                <title>Hot Hunts</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:title" content="Hot Hunts Today " />
+                <meta property="og:description" content="Today's Top 5 Products from ProductHunt" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
+                <meta property="og:url" content="https://hothunts.vercel.app/" />
+                <meta name="twitter:title" content="Hot Hunts Today " />
+                <meta name="twitter:description" content=" Today's Top 5 Products from ProductHunt." />
+                <meta name="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
+                <meta name="twitter:card" content="Today's Top 5 Products from ProductHunt" />
                 <meta charSet="utf-8" />
             </Head>
 

@@ -10,6 +10,7 @@ import {
   Card,
   Grid,
   Header,
+  Icon,
   Message,
   Segment,
 } from 'semantic-ui-react';
