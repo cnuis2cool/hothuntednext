@@ -68,7 +68,7 @@ const Hunts = () => (
               </div>
             ))}
             <div className="five wide computer sixteen wide mobile seven wide tablet column">
-              <div className="ui red card" style={{ marginLeft: '1em', backgroundColor: '#97efeb' }}>
+              <div className="ui red card" style={{ backgroundColor: '#97efeb' }}>
                 <div className="content">
                   <div className="center aligned header">Share with the World</div>
                 </div>

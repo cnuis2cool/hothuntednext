@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hunt = (props) => (
-    <div className="ui card" key={props.hunt.node.id} style={{ marginLeft: '1em' }}>
+    <div className="ui card" key={props.hunt.node.id}>
         <div className="content">
             <img src={props.hunt.node.thumbnail.url} className="ui mini right floated image" />
             <div className="header">{props.hunt.node.name}</div>

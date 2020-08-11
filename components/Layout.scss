@@ -37,17 +37,19 @@
         padding: 0 2em;
       }
 
-      @media only screen and (max-width: 767px) {
-        /* For mobile phones: */
-        .ui.grid {
-          width: 100%;
-        }
+      .columns {
+        margin-left: -.75rem;
+        margin-right: -.75rem;
+        margin-top: -.75rem;
       }
 
       @media only screen and (max-width: 1200px) {
         /* For Large Screens: */
         .ui.grid {
           width: 90%;
+        }
+        .ui.card {
+          margin-right: 1em;
         }
       }
 
@@ -56,19 +58,23 @@
         .ui.grid {
           width: 75%;
         }
+        .ui.card {
+          margin-right: 1em;
+        }
       }
       
-      .columns {
-        margin-left: -.75rem;
-        margin-right: -.75rem;
-        margin-top: -.75rem;
+      @media only screen and (max-width: 767px) {
+        /* For mobile phones: */
+        .ui.grid {
+          width: 100%;
+        }
       }
       
       @media only screen and (max-width: 600px) {
         /* For mobile phones: */
         .ui.card {
           margin-right: .5em;
-          padding: .5rem;
+          padding: .2rem;
         }
       }
 
