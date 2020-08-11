@@ -79,26 +79,26 @@ const Hunts = () => (
                   </div>
                 </div>
                 <div className="center aligned extra content">
-                  <TwitterShareButton style={{ marginRight: '5px'}}
+                  <TwitterShareButton style={{ marginRight: '3px'}}
                     url={shareUrl}
                     title={title}
                     className="Demo__some-network__share-button">
                     <TwitterIcon size={32} round />
                   </TwitterShareButton>
-                  <FacebookShareButton style={{ marginRight: '5px'}}
+                  <FacebookShareButton style={{ marginRight: '3px'}}
                     url={shareUrl}
                     quote={title}
                     className="Demo__some-network__share-button">
                     <FacebookIcon size={32} round />
                   </FacebookShareButton>
-                  <WhatsappShareButton style={{ marginRight: '5px'}}
+                  <WhatsappShareButton style={{ marginRight: '3px'}}
                     url={shareUrl}
                     title={title}
                     separator=":: "
                     className="Demo__some-network__share-button">
                     <WhatsappIcon size={32} round />
                   </WhatsappShareButton>
-                  <LinkedinShareButton style={{ marginRight: '5px'}}
+                  <LinkedinShareButton style={{ marginRight: '3px'}}
                     url={shareUrl} 
                     className="Demo__some-network__share-button">
                     <LinkedinIcon size={32} round />

@@ -15,14 +15,13 @@ const Layout = props => {
             <Head>
                 <title>Hot Hunts</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta property="og:title" content="Hot Hunts Today " />
-                <meta property="og:description" content="Today's Top 5 Products from ProductHunt" />
-                <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
-                <meta property="og:url" content="https://hothunts.vercel.app/" />
-                <meta property="twitter:title" content="Hot Hunts Today " />
-                <meta property="twitter:description" content=" Today's Top 5 Products from ProductHunt." />
-                <meta property="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" />
-                <meta property="twitter:card" content="Today's Top 5 Products from ProductHunt" />
+                <meta property="og:title" content="Hot Hunts Today " key="ogtitle" />
+                <meta property="og:description" content="Today's Top 5 Products from ProductHunt" key="ogdescription" />
+                <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" key="ogimage" />
+                <meta property="og:url" content="https://hothunts.vercel.app/" key="ogurl" />
+                <meta name="twitter:image" content=" https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" key="twimage" />
+                <meta name="twitter:card" content="summary" key="twcard" />
+                <meta name="twitter:creator" content="@cnuis2cool" key="twcreator" />
                 <meta charSet="utf-8" />
             </Head>
 
