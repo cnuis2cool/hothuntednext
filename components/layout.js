@@ -15,6 +15,7 @@ const Layout = props => {
             <Head>
                 <title>Hot Hunts</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:site_name" content="HotHunts" key="ogsitename" />
                 <meta property="og:title" content="Hot Hunts Today " key="ogtitle" />
                 <meta property="og:description" content="Today's Top 5 Products from ProductHunt" key="ogdescription" />
                 <meta property="og:image" content="https://raw.githubusercontent.com/cnuis2cool/JustImages/master/Tech/favicon.png" key="ogimage" />
