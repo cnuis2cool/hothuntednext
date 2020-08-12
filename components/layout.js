@@ -26,7 +26,7 @@ const Layout = props => {
                 <meta itemprop="description" content="Today's Top 5 Products from ProductHunt" />
                 <meta itemprop="image" content="https://hothunts.vercel.app/hothunts_1200_600.png" />
                 {/* <!-- Twitter --> */}
-                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:card" content="summary_large_page" />
                 <meta name="twitter:title" content="Hot Hunts" />
                 <meta name="twitter:description" content="Today's Top 5 Products from ProductHunt" />
                 <meta name="twitter:site" content="@cnuis2cool" />
