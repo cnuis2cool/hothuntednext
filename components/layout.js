@@ -41,6 +41,10 @@ const Layout = props => {
                 <meta name="og:type" content="website" />
 
                 <meta charSet="utf-8" />
+                <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101272488);</script>
+                <script async src="//static.getclicky.com/js"></script>
+                <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101272488);</script>
+                <script async src="//static.getclicky.com/js"></script>
             </Head>
 
             <Header appTitle={appTitle} subTitle={subTitle} />
